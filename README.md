@@ -1,2 +1,7 @@
 # Progettazione-Algoritmi
-mi diverto a implementare cosine
+## Algoritmi
+- minimum coin change problem
+- knapsack problem
+
+## Divide et impera
+- funzioni varie su alberi
