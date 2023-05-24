@@ -19,7 +19,7 @@ void printmatrix(int n, int V, int M[n][V])
 	}
 }
 
-int subsums(int w[], int n, int W, int M[n][W]) 
+int subsum(int w[], int n, int W, int M[n][W]) 
 {
 	
 	for (int j = 0; j < W; j++)
@@ -47,6 +47,6 @@ int main()
 	int n = sizeof(w)/sizeof(w[0]);
 	int W = 7;
 	int M[n][W];
-	printf("\nLa soluzione ottima ha somma %d\n", subsums(w, n, W, M));
+	printf("\nLa soluzione ottima ha somma %d\n", subsum(w, n, W, M));
 	return 0;
 }

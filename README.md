@@ -1,7 +1,8 @@
 # Progettazione-Algoritmi
 ## Algoritmi
-- minimum coin change problem
+- subset sum problem
 - knapsack problem
+- minimum coin change problem
 
 ## Divide et impera
 - funzioni varie su alberi
