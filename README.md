@@ -5,4 +5,5 @@
 - minimum coin change problem
 
 ## Divide et impera
+- massimo numero di occorrenze consecutive
 - funzioni varie su alberi
