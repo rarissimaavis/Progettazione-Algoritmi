@@ -6,4 +6,6 @@
 
 ## Divide et impera
 - massimo numero di occorrenze consecutive
+- trova x in un array non ordinato
+- sottosequenza crescente più lunga contigua
 - funzioni varie su alberi
