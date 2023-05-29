@@ -55,7 +55,7 @@ int locc(int A[], int l, int r)
 int main()
 {
 	int A[] = {5, 4, 2, 2, 2, 2, 5, 5, 3, 2}
-	int l = 0, r = 10;
+	int l = 0, r = 9;
 	printf("\nIl massimo numero di occorrenze consecutive di un elemento è %d\n", locc(A, l, r));
 	return 0;
 }

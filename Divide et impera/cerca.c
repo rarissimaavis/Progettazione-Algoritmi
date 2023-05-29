@@ -17,7 +17,7 @@ int cerca(int A[], int x, int l, int r)
 int main()
 {
 	int A[] = {3, 4, 1, 2, 3, 1, 4, 2, 1, 4};
-	int l = 0, r = 10, x = 4;
+	int l = 0, r = 9, x = 4;
 	printf("\nL'elemento x compare %d volte in A\n", cerca(A, x, l, r));
 	return 0;
 }

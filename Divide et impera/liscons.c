@@ -55,7 +55,7 @@ int liscons(int A[], int l, int r)
 int main()
 {
 	int A[] = {5, 4, 3, 2, 3, 4, 5, 6, 3, 2};
-	int l = 0, r = 10;
+	int l = 0, r = 9;
 	printf("\nLa sottosequenza crescente più lunga ha lunghezza %d\n", liscons(A, l, r));
 	return 0;
 }

@@ -23,7 +23,7 @@ int findx(int A[], int x, int l, int r)
 int main()
 {
 	int A[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-	int l = 0, r = 10, x = 7;
+	int l = 0, r = 9, x = 7;
 	printf("\nL'elemento x si trova all'indice %d\n", findx(A, x, l, r));
 	return 0;
 }

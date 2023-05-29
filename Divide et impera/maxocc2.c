@@ -59,7 +59,7 @@ int maxocc(int A[], int l, int r)
 int main()
 {
 	int A[] = {2, 2, 3, 6, 2, 2, 2, 2, 3, 3};
-	int l = 0, r = 10;
+	int l = 0, r = 9;
 	printf("\nIl massimo numero di occorrenze consecutive di 2 è %d\n", maxocc(A, l, r));
 	return 0;
 }
