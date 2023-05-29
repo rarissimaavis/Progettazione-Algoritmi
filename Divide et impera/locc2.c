@@ -27,7 +27,7 @@ int locc(int A[], int l, int r)
 	if (l == r) 
 		return 1;
 
-	int i, j, c = (l+r)/2, nc = 0, nl = 0, nr = 0;
+	int c = (l+r)/2, nc = 0, nl = 0, nr = 0, i = c, j = c+1;
 
 	if (A[c] == A[c+1])
 	{
@@ -44,20 +44,21 @@ int locc(int A[], int l, int r)
 			j++;
 			nc++;
 		}
+		printf("%d", nc);
 	}
 
 	if (i > nc) 
-		nl = locc(A, l, i-1);
+		nl = locc(A, l, i);
 
 	if (r-j > nc)
-		nr = locc(A, j+1, r);
+		nr = locc(A, j, r);
 
 	return max(nl, nr, nc);
 }
 
 int main()
 {
-	int A[] = {2, 2, 3, 6, 2, 2, 2, 2, 3, 3};
+	int A[] = {2, 2, 3, 3, 3, 9, 3, 7, 3, 3};
 	int l = 0, r = 9;
 	printf("\nIl massimo numero di occorrenze consecutive di un elemento è %d\n", locc(A, l, r));
 	return 0;
