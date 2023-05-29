@@ -31,6 +31,7 @@ int liscons(int A[], int l, int r)
 
 	if (A[c] < A[c+1])
 	{
+		nc = nc+2;
 		i = c;
 		while (i > l && A[i] > A[i-1])
 		{
