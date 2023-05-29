@@ -44,7 +44,6 @@ int locc(int A[], int l, int r)
 			j++;
 			nc++;
 		}
-		printf("%d", nc);
 	}
 
 	if (i > nc) 
