@@ -32,7 +32,7 @@ int maxsum(int A[], int l, int r)
 	int suml = maxsum(A, l, c);
 	int sumr = maxsum(A, c+1, r);
 
-	int sumc = 0, sumctemp = 0, j = c;
+	int sumc = -1000, sumctemp = 0, j = c;
 	while (j >= l)
 	{
 		sumctemp += A[j];
